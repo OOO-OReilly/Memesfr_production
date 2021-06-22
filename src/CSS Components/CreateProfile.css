@@ -1,0 +1,104 @@
+.create-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  background-color: rgba(243, 243, 243, 0.486);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.username {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.username-prompt {
+  margin-bottom: 1rem;
+  font-size: larger;
+}
+
+.create-avatar {
+  padding: 2rem 0;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-image-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.profile-image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.submit-profile {
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.upload-button {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #424242;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.upload-button:hover {
+  filter: brightness(85%);
+}
+
+@keyframes hover {
+  from {
+    filter: brightness(100%);
+  }
+  to {
+    filter: brightness(90%);
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .makeStyles-root-12 {
+    width: 100%;
+    margin: auto;
+    /* width: 200px; */
+    /* margin: 8px; */
+  }
+  .create-profile {
+    padding: 0;
+  }
+  .profile-image-preview img {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .makeStyles-root-12 {
+    width: 100%;
+    margin: auto;
+    /* width: 200px; */
+    /* margin: 8px; */
+  }
+}

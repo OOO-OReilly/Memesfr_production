@@ -1,0 +1,12 @@
+.trending-label {
+  display: flex;
+  flex-direction: row;
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+

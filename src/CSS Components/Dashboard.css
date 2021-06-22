@@ -1,0 +1,102 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.return-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+.thanks-box {
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem;
+}
+.thanks-box span {
+  padding: 1rem 4rem;
+}
+.thanks-title {
+  font-size: 1.5rem;
+}
+.discord-invite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.discord-invite a {
+  font-size: 0.95rem;
+  width: 100%;
+  color: #ef9898;
+  text-align: center;
+}
+.thanks-box svg {
+  stroke: white;
+}
+.close-thanks-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-thanks-box svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.25rem;
+}
+@media only screen and (max-height: 825px) and (max-width: 500px) {
+  .thanks-box {
+    height: 100%;
+    padding: 0;
+  }
+  .thanks-title {
+    margin-top: 2rem;
+    font-size: 1.25rem !important;
+  }
+  .thanks-title span {
+    font-size: 2rem;
+  }
+  .thanks-box span {
+    font-size: 0.85rem;
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-height: 570px) and (max-width: 330px) {
+  .thanks-box {
+    height: 100%;
+    padding: 0;
+  }
+
+  .thanks-title {
+    margin-top: 2rem;
+    font-size: 1rem !important;
+    text-align: center !important;
+  }
+  .thanks-title span {
+    font-size: 2rem;
+  }
+  .thanks-box span {
+    font-size: 0.75rem;
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+  .discord-invite a {
+    font-size: 0.75rem;
+  }
+}

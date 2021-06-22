@@ -1,0 +1,9 @@
+.settings{
+    position: absolute;
+    top: 0;
+    background-color: grey;
+    width: 300px;
+    height: 100px;
+    z-index: 2;
+    
+}
