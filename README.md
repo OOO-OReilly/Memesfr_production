@@ -4,10 +4,13 @@ A full-stack social media app built with Javascript, React, and Firebase that al
 
 [Live Site](https://memesfr.com) 
 
-<img src="https://github.com/reillyjodonnell/Memesfr_production/raw/main/.github/images/memesfr-test.gif" width="200px" height="430px"> 
+<p>
 
-<img src="https://github.com/reillyjodonnell/Memesfr_production/raw/main/.github/images/Memesfr1.gif?raw=true" width="200px" height="430px">
+  <img src="https://github.com/reillyjodonnell/Memesfr_production/raw/main/.github/images/memesfr-test.gif" width="200px" height="430px"> 
 
+  <img src="https://github.com/reillyjodonnell/Memesfr_production/raw/main/.github/images/Memesfr1.gif?raw=true" width="200px" height="430px">
+
+</p>
 
 ## Current Feature List
 1. User can create an account using Google auth
